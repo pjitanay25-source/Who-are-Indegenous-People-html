@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BPSU Hymn </title>
+    <style>
+        body {
+            font-family: Calibri;
+            font-size: 16px;
+            text-align: center;
+            padding: 50px;
+            line-height: 1.8;
+            background-color: skyblue;  /*  skyblue page background */
+            color: white;  /* make text readable on dark background */
+        }
+        /* Centered student number in background */
+        .bg-number {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Times New Roman";
+            font-size: 40px;
+            color: lightgray;  /* visible on dark background */
+            opacity: 0.3;
+            z-index: -1;
+        }
+        /* Section spacing */
+        .section {
+            margin-top: 50px;
+        }
+        /* Page break for printing / second page */
+        .page-break {
+            page-break-before: always;
+            break-before: page;
+        }
+    </style>
+</head>
+<body>
+<div class="bg-number">25-02897</div>
+<!-- Page 2: Hymn -->
+<div class="page-break section">
+<h1>BPSU HYMN</h1>
+<p>
+Lyrics by: Bishop Socrates Villegas<br>
+Music by: Maestro Ryan Cayabyab<br><br>
+Dukhang pinagmulan ay di mahalaga<br>
+Lahi tayo ng bayani at liping maharlika<br>
+Dambana ng kagitingan at pagkakaisa<br>
+Bataan, Bataan magiting na peninsula.<br><br>
+Bataan Peninsula State University<br>
+Tahanan ng pantas at batang bayani<br>
+Punlaan ng dunong at gawang mabuti<br>
+Tagumpay at pangarap<br>
+Dito hinahabi!<br><br>
+Matayog ang pangarap nitong pamantasan<br>
+Maghandog sa bansa at sangkatauhan<br>
+Kabataang matalino’t kapakipakinabang<br>
+Kabataan bayani, maka-Diyos, makabayan!<br><br>
+Bataan Peninsula State University<br>
+Tahanan ng pantas at batang bayani<br>
+Punlaan ng dunong at gawang mabuti<br>
+Tagumpay at pangarap<br>
+Dito hinahabi!
+</p>
+</div>
+</body>
+</html>
+
